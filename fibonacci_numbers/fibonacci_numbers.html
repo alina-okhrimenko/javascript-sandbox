@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // Задача№1
+            
+            n = +prompt("Введите порядковый номер числа Фибоначчи")
+
+            prev = 0;
+            next = 1;
+
+            for(i = 0; i < n; i++){
+            temp = next;
+            next = prev + next;
+            prev = temp;
+            }
+            document.write (prev);
+
+        // Задача№2
+        n = +prompt("Введите любое число больше 1, а я проверю его на простоту");
+        let isPrime = true;
+
+        if (n == 1) {
+            document.write("1 не является ни простым, ни сложным числом");
+        }
+        else if (n < 1) {
+            document.write("Число должно быть больше одного");
+        }
+        else if (n > 1) {
+            for (let i = 2; i < n; i++) {
+                if (n % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+            if (isPrime) {
+                document.write(`${n} - простое число`);
+            } else {
+                document.write(`${n} - сложное число`);
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
