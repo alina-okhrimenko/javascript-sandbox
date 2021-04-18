@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class C1 {
+            constructor(p2){
+                this.p2 = p2;
+            }
+        }
+
+        class C2 extends C1 {
+            constructor(p2, p1, p3){
+                super(p2);
+                this.p1 = p1;
+                this.p3 = p3;
+                for (let i = 0; i < arguments.length; i++) {
+                    this.p2 = arguments[1];
+                    this.p1 = arguments[0];
+                }
+            }
+        }
+
+        class C3 extends C2 {
+            constructor( p2, p1, p3, p4){
+                super(p2, p1, p3);
+                this.p4 = p4;
+            }
+        }
+
+        const newchild = new C3('1', '2', '3', '4');
+        console.log(newchild);
+
+    </script>
+</body>
+</html>
+
