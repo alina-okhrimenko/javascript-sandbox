@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // Method 1
+
+       function convert(obj1, obj2){
+            let merged = {};
+            return merged = {...obj1, ...obj2}
+        }
+
+    class1 = {
+        a: 4,
+        x: 10,
+        y: 12,
+        z: 5,  
+    }
+    class2 = {
+        y: 20,
+        z: 30,
+        b: 40,  
+    }
+
+    console.log(class1, class2)
+    
+    console.log (convert(class1,class2));
+
+// Method 2
+
+    function convert(obj1, obj2){
+            let merged = {};
+            for (let key in obj1){
+                merged[key]=obj1[key];
+            }
+            for (let key in obj2){
+                merged[key]=obj2[key];
+            }
+            return merged;
+        }
+
+    class1 = {
+        a: 4,
+        x: 10,
+        y: 12,
+        z: 5,  
+    }
+
+    class2 = {
+        y: 20,
+        z: 30,
+        b: 40,  
+    }
+
+    console.log (convert(class1,class2));
+
+    </script>
+</body>
+</html>
