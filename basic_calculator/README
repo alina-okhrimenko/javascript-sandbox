@@ -1,0 +1,9 @@
+Write a function `doMath (x, znak, y)` that takes 3 arguments: numbers `x` and` y`, and a string named `znak`. 
+Variable `znak` can contain one of the following signs representing the mathematical operation: `+, -, *, /,%, ^`. 
+
+Display the result of the mathematical action over numbers x and y specified in the variable `znak`.
+
+
+Написать функцию `doMath(x, znak, y)`, которая получает 3 аргумента: числа `x` и `y`, строку
+`znak`. В переменной знак может быть: `+, -, *, /, %, ^`. Вывести результат
+математического действия, указанного в переменной `znak`.
