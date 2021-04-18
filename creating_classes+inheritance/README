@@ -1,0 +1,24 @@
+1) Create class chain C1 -> C2 -> C3.
+Create - `new C3 (1, 2, 3, 4)`
+
+The first argument must be specified in `this` as a property of` p1`.
+Second argument as `p2`
+Third as `p3`
+Fourth as `p4`
+
+The C1 constructor writes the `p2` property to` this`
+C2 constructor writes property `p1` and `p3` to` this`
+The C3 constructor writes the `p4` property to` this`
+
+
+Создать цепочку классов C1 -> C2 -> C3.
+Создание экземпляра - `new C3(1, 2, 3, 4)`
+
+Первый аргумент должен определится в `this` как свойство `p1`.
+Второй аргумент как `p2`
+Третий как `p3`
+Четвертый как `p4`
+
+Конструктор C1 записывает в `this` свойство `p2`
+Конструктор C2 записывает в `this` свойство `p1`, и `p3`
+Конструктор C3 записывает в `this` свойство `p4`
