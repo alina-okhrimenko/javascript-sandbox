@@ -1,0 +1,11 @@
+Create 2 objects with keys filled with different types of data. Write a code that will iterate over both objects and concatenate all fields that are arrays and save them into a 
+new variable `allArrays = [...]`.
+Then calculate the sum of numeric elements in `allArrays = [...]` array.
+
+* Objects have only one level.
+
+
+Создать 2 объекта с различными полями. Написать код, который переберёт оба объекта и сконкатениурет все поля-массивы, которые сохранятся в переменную `allArrays = [...]`. 
+Посчитать сумму чисельных элементов в полученном массиве.
+
+*Объекты только одноуровневые
