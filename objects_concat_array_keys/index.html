@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let item = {     
+                id: [28, 'fox', 'street', 5],
+                price: 20,
+                form: ['round', 2, 'love', -5],
+                quantity: 4
+            };
+
+
+        let itemTwo = {     
+            number: 9,  
+            weight: [12, 'monkey', 'chair', 4, 6],
+            metal: 'silver',
+            gemstone: ['moonstone', 'geode', 2, 3, 5],
+            size: 6
+        };
+
+    allArrays = [];
+
+    for(key in item){
+    if (Array.isArray(item[key])){
+        allArrays.push(item[key])
+        }
+    }
+
+    for(key in itemTwo){
+    if (Array.isArray(itemTwo[key])){
+        allArrays.push(itemTwo[key])
+    }
+    }
+
+    sum = 0;
+
+    for(i=0; i < allArrays.length; i++)
+    for(j=0; j < allArrays[i].length; j++){
+
+    if(typeof allArrays[i][j] =='number'){
+
+        sum += allArrays[i][j];
+
+    }
+    }
+    
+    console.log(sum);
+
+    </script>
+</body>
+</html>
