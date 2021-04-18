@@ -1,0 +1,6 @@
+Document.write a rectangle. The figure should consit of symbols: `*`, `& nbsp;`.
+The height and width are set by the variables `n` and` m` and are entered by user via keyboard.
+
+Нарисовать фигуру - прямоугольник. Фигура должна строить при помощи символов: `*`, `&nbsp;`.
+Высота и ширина задается переменными `n`, `m` с клавиатуры.
+Нарисовать в document.
