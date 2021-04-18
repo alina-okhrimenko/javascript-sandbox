@@ -1,0 +1,10 @@
+Write the function assignObjects (obj1, obj2), which takes 2 objects as arguments and returns a new one, which consists of the properties of both objects (merge).
+If the same property is repeated in each object, then take the value of the second object. 
+NOTE! Object.assign () should not be used!
+Example: assignObjects ({x: 10, y: 20}, {z: 30}) -> {x: 10, y: 20, z: 30}
+
+
+Написать функцию assignObjects(obj1, obj2), которая принимает аргументами 2 объекта и возвращает новый, который состоит из свойство обоих объектов (склеить). 
+Если свойство повторяется, то взять значение второго объекта.
+Object.assign() - не использовать!
+Пример: assignObjects({ x: 10, y: 20 }, { z: 30 }) -> { x:10, y:20, z: 30 }
