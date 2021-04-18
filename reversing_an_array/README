@@ -1,0 +1,5 @@
+Reverse the array, i.e. if the array was 1, 5, 6, 2, 4 - then we should get 4, 2, 6, 5, 1. You cannot use the standard reverse () method.
+* Try not to use an extra array. The original array A does not need to be saved (i.e., it must flip over).
+
+Перевернуть массив, т.е. если был массив 1, 5, 6, 2, 4 -- то мы должны получить 4, 2, 6, 5, 1. Нельзя использовать стандартный метод reverse().
+*Постарайтесь не использовать дополнительный массив. Оригинальный массив А сохранять не нужно (т.е. он должен перевернуться).
