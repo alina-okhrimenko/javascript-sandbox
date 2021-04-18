@@ -1,0 +1,5 @@
+Write a function that takes two arrays as arguments (parameters) and compares the sums of all NUMERIC elements.
+The array, the sum of which is bigger, must be returned by the function.
+
+Написать функцию, которая примет как аргументы(параметры) два массива и сравнит суммы всех ЧИСЛОВЫХ элементов.
+Тот массив, сумма которого большая - должен вернутся функцией.
