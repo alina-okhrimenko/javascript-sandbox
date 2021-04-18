@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function GetSum(Arr){
+            let sum = 0;
+            for (let i=0; i<Arr.length; i++) {
+                if (typeof Arr[i] == 'number'){
+                sum += Arr[i];}
+            }
+            return sum;
+        }
+
+        function biggerSum(arr1, arr2){
+        if (GetSum(arr1) > GetSum(arr2)) {
+            return (arr1)} else { 
+                return(arr2);
+            }
+        }
+
+        let A = ['dog', 3 , 'parrot', 22, 'string', 19, 1];
+        let B = ['dog', 8, 12 , 'parrot', 28 , 2 , 'string', 19, 1]; 
+
+
+        console.log(biggerSum(A,B))
+
+    </script>
+</body>
+</html>
