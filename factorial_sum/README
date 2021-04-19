@@ -1,0 +1,8 @@
+Enter a and b from the keyboard, where a is less than b (write the check with a code). 
+Start iteration cycle from a to b with step h (keyboard input).
+Calculate the sum of the factorials * of the numbers that come across during the search.
+
+************
+Ввести с клавиатуры a и b, где а меньше b (проверку написать кодом). 
+Запустить цикл перебора от a до b с шагом h (ввод с клавиатуры).
+Посчитать сумму факториалов* чисел которые попадаются во время перебора.
