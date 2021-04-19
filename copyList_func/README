@@ -1,0 +1,12 @@
+Implement the copy (list) function for copying an array.
+Provide the possibility of passing the function as the second argument. 
+When copying an array - the function should be applied to each element of the copied array.
+
+newList = copy (list, function (value) {return value * 10;})
+
+***********
+
+Реализовать функцию copy(list) по копированию массива.
+Предусмотреть возможность передачи вторым аргументом функции. При копировании массива – функция применяется к каждому элементу копируемого массива.
+
+newList = copy(list, function(value){ return value*10; })
