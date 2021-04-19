@@ -1,0 +1,32 @@
+Two functions are given:
+function main (a, b, c) {
+}
+
+function sum (a, b) {
+     return a + b;
+}
+
+
+Rewrite the main function as follows:
+
+If arguments a and b are not passed, they default to 2 and 3, respectively.
+If the argument c is passed and it is a function, then it is executed after the call
+of the sum function, and the result of the sum function is taken as an input value.
+The main function should return the function result of the argument c, if any, or the result of the sum function.
+
+**********
+
+Дано две функции:
+function main (a, b, c) { 
+}
+
+function sum (a, b) { 
+    return a + b; 
+}
+
+
+Перепишите функцию main следующим образом:
+
+Если аргументы a и b не переданы, они равны по умолчанию 2 и 3 соответсвенно.
+Если аргумент c передан и он является функцией, то он выполняется после вызова функции sum, и в качестве входящего значение принимает результат работы функции sum.
+Функция main должна возвращать результат функции аргумента c, если он есть, либо результат функции sum.
