@@ -1,0 +1,17 @@
+Write 3 asynchronous operations (simulate using the getPromise () function, which contains setTimeout (resolve (), timer)).
+Each promise (getPromise) returns a number between 0 and 100.
+Create a wrapper runAfter () that receives 3 functions in an array as an argument, which will be executed after all 3 asynchronous operations have finished.
+
+*****
+
+Сделать 3 асинхронные операции (симулируем при помощи функции getPromise(), внутри которой находится setTimeout(resolve(),timer)). 
+В каждом промисе (getPromise) возвращается число от 0 до 100.
+Создать обертку runAfter(), которая получает в качестве аргумента – 3 функции в массиве, которые выполнятся после окончания всех 3-х асинхронных операций.
+
+Например/Example
+function afterFirstPromise(){};
+function afterSecondPromise(){};
+function afterThirdPromise(){};
+
+
+function runAfter([afterFirstPromise,afterSecondPromise,afterThirdPromise]){}
