@@ -1,0 +1,32 @@
+Using Promises, write a code that will form 2 requests for different json files (data.json, data2.json).
+
+Sample data.json file:
+{
+"children": ["Jack", "Jacky", "Alexandr"]
+}
+
+Sample data2.json file:
+{
+"children": ["Anna", "Ivan", "Alena"]
+}
+
+It is necessary to merge the 2 obtained arrays and output the result to the console.
+Console output:
+["Jack", "Jacky", "Alexandr", "Anna", "Ivan", "Alena"]
+
+**********
+
+Используя Promise написать код, который сформирует 2 последовательных запроса за различными файлами json (data.json, data2.json).
+Пример файла data.json:
+
+{
+	"children": ["Jack","Jacky","Alexandr"]
+}
+Пример файла data2.json:
+{
+	"children": ["Anna","Ivan","Alena"]
+}
+
+Необходимо склеить 2 полученных массива и вывести результат в консоль.
+Результат вывода в консоль:
+["Jack","Jacky","Alexandr","Anna","Ivan","Alena"]
