@@ -1,0 +1,17 @@
+1) Write a function assignObjects (obj1, obj2), which takes 2 objects as arguments and returns a new one,
+which consists of the properties of both objects (merge). If the key property is repeated, then take the key value from the second object.
+
+assignObjects ({x: 10, y: 20}, {z: 30}) -> {x: 10, y: 20, z: 30}
+assignObjects ({x: 10}, {x: 20, y: 30}) -> {x: 20, y: 30}
+
+2) Adapt the assignObjects () function - from the 1st task - for an indefinite number of objects. assignObjects (obj1, obj2, ....., objn);
+
+********
+
+1) Написать функцию assignObjects(obj1, obj2), которая принимает аргументами 2 объекта и возвращает новый,
+который состоит из свойств обоих объектов (склеить). Если свойство повторяется, то взять значение второго объекта.
+
+assignObjects({ x: 10, y: 20 }, { z: 30 }) -> { x:10, y:20, z: 30 }
+assignObjects({ x: 10 }, { x: 20, y: 30 }) - > { x:20, y: 30 }
+
+2) Адаптировать функцию assignObjects() - из 2го задания - под неопределенное количество объектов. assignObjects(obj1, obj2, ....., objn);
